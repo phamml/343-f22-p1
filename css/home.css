@@ -1,18 +1,17 @@
-ul {
-    list-style-type: none;
+.navbar {
+    top: 0;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    position: fixed;
     background-color: #E3DED5;
     font-family: "Catamaran";
+    width: 100%;
   }
   
-  li {
+  .navbar a {
     float: right;
-    color: white
-  }
-  
-  li a {
+    color: white;
     display: block;
     text-align: center;
     padding: 14px 16px;
@@ -20,14 +19,28 @@ ul {
     color: #93A375;
   }
   
-  li a:hover:not(.active) {
+  .navbar a:hover:not(.active) {
     background-color: #D7D0C3;
   }
   
-  .active {
+  .navbar .active {
     background-color: #93A375;
-    color: white
+    color: white;
+    float: left;
   }
+
+  body {
+    background-color: #F3F1ED;
+    font-family: Ovo;
+    color: #3F3629;
+    margin: 0;
+  }
+
+  main {
+    padding: 16px;
+    margin-top: 30px;
+  }
+
 
   h1 {
     font-family: Ovo;
@@ -40,12 +53,6 @@ ul {
     font-family: "Catamaran";
     text-align: center;
     color: #93A375;
-  }
-
-  body {
-    background-color: #F3F1ED;
-    font-family: Ovo;
-    color: #3F3629;
   }
 
   p {
