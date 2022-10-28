@@ -5,16 +5,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link href="css/styles.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ovo|Work Sans|Karla|Catamaran|Poppins|Lobster">
+  <link href="css/home.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ovo|Catamaran|Dawning of a New Day">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <ul>
     <li><a href="#contact">CONTACT</a></li>
-    <li><a href="#about">ABOUT</a></li>
-    <li><a href="#blog">BLOG</a></li>
-    <li><a href="#recipes">RECIPES</a></li>
-    <li><a href="#home">HOME</a></li>
+    <li><a href="html-pages/about.html">ABOUT</a></li>
+    <li><a href="html-pages/blog.html">BLOG</a></li>
+    <li><a href="html-pages/recipes.html">RECIPES</a></li>
+    <li><a href="index.html"><u>HOME</u></a></li>
     <li style="float:left"><a class="active" href="#about">COOK WITH NATALIE</a></li>
   </ul>
   <main>
@@ -28,20 +29,51 @@
       <img src="images/smoothie-bowl.jpg" alt="Smoothie Bowl">
     </div> -->
 
-    <div class="row">
-      <!-- Images go here -->
-      <div class="column">
-        <img src="images/paella.jpg" alt="Seafood Paella" style="width:100%">
+    <div class="div-home">
+      <div class="row">
+        <!-- Images go here -->
+        <div class="column">
+          <img class="food-img"src="images/paella.jpg" alt="Seafood Paella">
+        </div>
+        <div class="column">
+          <img class="food-img" src="images/pasta-salad.jpg" alt="Pasta Salad">
+        </div>
+        <div class="column">
+          <img class="food-img" src="images/smoothie-bowl.jpg" alt="Smoothie Bowl">
+        </div>
       </div>
-      <div class="column">
-        <img src="images/pasta-salad.jpg" alt="Pasta Salad" style="width:100%">
-      </div>
-      <div class="column">
-        <img src="images/smoothie-bowl.jpg" alt="Smoothie Bowl" style="width:100%">
-      </div>
+      <a class="button-link" style="font-size: 1.5rem;" href="html-pages/recipes.html">ALL RECIPES &rarr;</a></li>
     </div>
-    
-    <a href="#recipes">All recipes &rarr;</a></li>
+
+    <div style="height: 500px; margin-bottom: 100px;" class="row">
+      <div class="div-blog">
+        <p class="title">EATING GOOD, FEELING GOOD</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute </p>
+          <p><a class="button-link" href="html-pages/blog.html">READ MORE</a></p>
+      </div>
+      <img class="natalie-img" src="images/natalie.jpg" alt="Natalie Nettemeyer">
+      <span class="bio">
+        <p class="title" style="margin: 0px;color: #3F3629;">ABOUT</p>
+        <p style="font-family: Dawning of a New Day;font-size: 4rem;margin: 0px;color: #3F3629;">Natalie</p>
+        <p style="color: #3F3629;">Welcome to my portfolio! My name is Natalie Nettemeyer. 
+          I am a Student-Athlete at James Madison University, majoring in Dietetics and I anticipate 
+          graduating in the Spring of 2023. My interest in nutrition started at a young age, but it wasn't until my path 
+          began at JMU that I realized my dream career was to become a sports dietitian. Growing up playing soccer, basketball, 
+          and running cross country, I was always fascinated with the idea that good nutrition can enhance athletic performance.</p>
+        <p><a class="button-link" href="html-pages/about.html">LEARN MORE</a></p>
+      </span>
+    </div>
+
+    <div class="row footer">
+      <p style="color: #93A375"><strong>FOLLOW ME</strong> &emsp;</p>
+      <a href="https://www.facebook.com/natalie.nettemeyer" class="fa fa-facebook"></a>
+      <a href="https://twitter.com/nat_netty7?s=11&t=3BjQKwWy3Rj3o-EE32e5yw" class="fa fa-twitter"></a>
+      <a href="https://www.instagram.com/natty.netty7/" class="fa fa-instagram"></a>
+      <a href="https://www.pinterest.com/nnaattalieee/" class="fa fa-pinterest"></a>
+    </div>
+
   </main>
   
 </body>

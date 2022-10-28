@@ -1,0 +1,162 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E3DED5;
+    font-family: "Catamaran";
+  }
+  
+  li {
+    float: right;
+    color: white
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #93A375;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #D7D0C3;
+  }
+  
+  .active {
+    background-color: #93A375;
+    color: white
+  }
+
+  h1 {
+    font-family: Ovo;
+    text-align: center;
+    font-size: 4rem;
+    color: #3F3629;
+  }
+
+  h2 {
+    font-family: "Catamaran";
+    text-align: center;
+    color: #93A375;
+  }
+
+  body {
+    background-color: #F3F1ED;
+    font-family: Ovo;
+    color: #3F3629;
+  }
+
+  p {
+    color: white;
+  }
+
+  a {
+    color: #3F3629
+  }
+
+
+  .div-home {
+    background-color: #93A375;
+    width: 100%;
+    text-align: center;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 20px;
+    margin-top: 18px;
+  }
+
+  .food-img {
+    width: 100%;
+  }
+
+  .natalie-img {
+    margin: 30px;
+    width: 27%;
+    height: 100%;
+  }
+
+  .div-blog {
+    background-color: #B8A08E;
+    width: 35%;
+    height: 50%;
+    text-align: center;
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 30px;
+    margin-top: 150px;
+  }
+
+  .title {
+    font-family: "Catamaran"; 
+    font-size: 1.5rem;
+  }
+
+  .button-link {
+    background-color: #93A375;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Catamaran";
+  }
+
+  .button-link:hover, a:active {
+    background-color: #829462;
+  }
+
+  .bio {
+    margin-top: 50px; 
+    margin-bottom: 0px;
+    width: 40%;
+  }
+
+  .footer {
+    font-family: Catamaran;
+    color: #93A375;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+.fa {
+  padding: 12px;
+  padding-top: 15px;
+  font-size: 47px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #93A375;
+  color: #F3F1ED;
+}
+
+.fa-twitter {
+  background: #93A375;
+  color: #F3F1ED;
+}
+
+.fa-instagram {
+  background: #93A375;
+  color: #F3F1ED;
+}
+
+.fa-pinterest {
+  background: #93A375;
+  color: #F3F1ED;
+}

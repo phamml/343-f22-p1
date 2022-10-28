@@ -30,7 +30,7 @@ ul {
   }
 
   h1 {
-    font-family: Ovo;
+    font-family: "Oswald";
     text-align: center;
     font-size: 4rem;
     color: #3F3629;
@@ -48,19 +48,27 @@ ul {
     color: #3F3629;
   }
 
-  a {
-    color: #3F3629
+  p {
+    text-align: center;
   }
 
+  .a-food:link, .a-food:visited {
+    background-color: #93A375;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Catamaran";
+  }
+  
+  .a-food:hover, a:active {
+    background-color: #829462;
+  }
 
   div {
-    background-color: #93A375;
     width: 100%;
-    /* height: 350px; */
-    text-align: center;
-    justify-content: center;
   }
-
 
   .row {
     display: flex;
@@ -72,6 +80,6 @@ ul {
     padding: 20px;
   }
 
-  /* img {
+  img {
     width: 100%;
-  } */
+  }
