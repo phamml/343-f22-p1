@@ -29,6 +29,15 @@
     float: left;
   }
 
+  h1 {
+    font-family: "Cutive Mono";
+    font-size: 4rem;
+  }
+
+  h3 {
+    font-family: "Cutive Mono";
+  }
+
   body {
     background-color: #F3F1ED;
     font-family: Ovo;
@@ -41,94 +50,42 @@
     margin-top: 30px;
   }
 
-
-  h1 {
-    font-family: Ovo;
-    text-align: center;
-    font-size: 4rem;
-    color: #3F3629;
-  }
-
-  h2 {
-    font-family: "Catamaran";
-    text-align: center;
-    color: #93A375;
-  }
-
-  p {
-    color: white;
-  }
-
-  a {
-    color: #3F3629
-  }
-
-
-  .div-home {
-    background-color: #93A375;
-    width: 100%;
-    text-align: center;
-  }
-
   .row {
     display: flex;
   }
-  
-  /* Create three equal columns that sits next to each other */
-  .column {
-    flex: 33.33%;
-    padding: 20px;
+
+  .text {
+    width: 60%;
+    margin-right: 40px;
+  }
+
+  .col-left {
+    flex: 20%;
+    padding: 10px;
     margin-top: 18px;
+    text-align: left;
+    /* margin-right: 85px; */
   }
 
-  .food-img {
-    width: 100%;
+  .col-right {
+    flex: 40%;
+    padding: 10px;
+    margin-top: 18px;
+    text-align: left;
+    /* margin-right: 85px; */
   }
 
-  .natalie-img {
-    margin: 30px;
-    width: 27%;
-    height: 100%;
+  ul {
+    list-style-type:none;
+    padding-left: 0px;
   }
 
-  .div-blog {
-    background-color: #B8A08E;
-    width: 35%;
-    height: 50%;
-    text-align: center;
-    padding: 5px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin: 30px;
-    margin-top: 150px;
-  }
-
-  .title {
-    font-family: "Catamaran"; 
-    font-size: 1.5rem;
-  }
-
-  .button-link {
-    background-color: #93A375;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-family: "Catamaran";
-  }
-
-  .button-link:hover, a:active {
-    background-color: #829462;
-  }
-
-  .bio {
-    margin-top: 50px; 
-    margin-bottom: 0px;
-    width: 40%;
+  img {
+    width: 40%
   }
 
   .footer {
+    margin-top: 50px;
     font-family: Catamaran;
     color: #93A375;
   }
@@ -167,3 +124,4 @@
     background: #93A375;
     color: #F3F1ED;
   }
+

@@ -48,6 +48,11 @@
     color: #3F3629;
   }
 
+  main {
+    padding: 16px;
+    margin-top: 30px;
+  }
+
   p {
     text-align: center;
   }
@@ -83,3 +88,45 @@
   img {
     width: 100%;
   }
+
+  .footer {
+    margin-top: 50px;
+    font-family: Catamaran;
+    color: #93A375;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa {
+    padding: 12px;
+    padding-top: 15px;
+    font-size: 47px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+  .fa-facebook {
+    background: #93A375;
+    color: #F3F1ED;
+  }
+
+  .fa-twitter {
+    background: #93A375;
+    color: #F3F1ED;
+  }
+
+  .fa-instagram {
+    background: #93A375;
+    color: #F3F1ED;
+  }
+
+  .fa-pinterest {
+    background: #93A375;
+    color: #F3F1ED;
+  }
+

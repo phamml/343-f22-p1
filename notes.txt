@@ -1,2 +1,8 @@
 cutive mono
 Zen Maru Gothic
+
+- make one style sheet for nav bar, body background, footer
+- add navbar and footer to all pages
+- add link back to all recipes
+- shrink images if page gets smalled
+- add form to contact page
