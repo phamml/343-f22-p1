@@ -1,0 +1,125 @@
+.navbar {
+    top: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    background-color: #E3DED5;
+    font-family: "Catamaran";
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: right;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #93A375;
+  }
+  
+  .navbar a:hover:not(.active) {
+    background-color: #D7D0C3;
+  }
+  
+  .navbar .active {
+    background-color: #93A375;
+    color: white;
+    float: left;
+  }
+
+  h1 {
+    font-family: "Oswald";
+    font-size: 4rem;
+    margin-bottom: 0px;
+  }
+
+  h2, h3 {
+    font-family: "Catamaran";
+    margin: 0px;
+  }
+
+  body {
+    background-color: #F3F1ED;
+    font-family: Ovo;
+    color: #3F3629;
+  }
+
+  main {
+    padding: 16px;
+    margin-top: 30px;
+  }
+
+  p {
+    text-align: left;
+  }
+
+  .a-food:link, .a-food:visited {
+    background-color: #93A375;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Catamaran";
+  }
+  
+  .a-food:hover, a:active {
+    background-color: #829462;
+  }
+
+  div {
+    width: 100%;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  img {
+    width: 35%;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+
+  .footer {
+    margin-top: 50px;
+    font-family: Catamaran;
+    color: #93A375;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa {
+    padding: 12px;
+    padding-top: 15px;
+    font-size: 47px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+  .fa-facebook {
+    background: #93A375;
+    color: #F3F1ED;
+  }
+
+  .fa-twitter {
+    background: #93A375;
+    color: #F3F1ED;
+  }
+
+  .fa-instagram {
+    background: #93A375;
+    color: #F3F1ED;
+  }
+
+  .fa-pinterest {
+    background: #93A375;
+    color: #F3F1ED;
+  }
