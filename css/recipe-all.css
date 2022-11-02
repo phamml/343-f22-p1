@@ -1,0 +1,48 @@
+  h1 {
+    font-family: "Oswald";
+    text-align: center;
+    font-size: 4rem;
+    color: #3F3629;
+  }
+
+  h2 {
+    font-family: "Catamaran";
+    text-align: center;
+    color: #93A375;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .a-food:link, .a-food:visited {
+    background-color: #93A375;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Catamaran";
+  }
+  
+  .a-food:hover, a:active {
+    background-color: #829462;
+  }
+
+  div {
+    width: 100%;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 20px;
+  }
+
+  img {
+    width: 100%;
+  }
