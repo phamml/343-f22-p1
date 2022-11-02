@@ -1,54 +1,54 @@
-  h1 {
-    font-family: "Oswald";
-    font-size: 4rem;
-    margin-bottom: 75px;
-  }
+h1 {
+  font-family: "Oswald";
+  font-size: 4rem;
+  margin-bottom: 75px;
+}
 
-  h3 {
-    font-family: "Ovo";
-    margin: 0px;
-  }
+h3 {
+  font-family: "Ovo";
+  margin: 0px;
+}
 
-  p {
-    text-align: left;
-  }
+p {
+  text-align: left;
+}
 
-  div {
-    width: 55%;
-  }
+div {
+  width: 55%;
+}
 
-  form {
-    margin-top: 25px;
-  }
+form {
+  margin-top: 25px;
+}
 
-  input[type=text], textarea {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 1.5px solid #3F3629;
-    background-color: #F3F1ED;
-  }
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1.5px solid #3F3629;
+  background-color: #F3F1ED;
+}
 
-  ::placeholder {
-    color: #3F3629;
-    font-family: monospace;
-  }
+::placeholder {
+  color: #3F3629;
+  font-family: monospace;
+}
 
-  input[type=submit] {
-    background-color: #F3F1ED;
-    border: 1.5px solid #3F3629;
-    color: #3F3629;
-    padding: 12px 20px;
-    cursor: pointer;
-    float: right;
-    font-family: monospace;
-  }
+input[type=submit] {
+  background-color: #F3F1ED;
+  border: 1.5px solid #3F3629;
+  color: #3F3629;
+  padding: 12px 20px;
+  cursor: pointer;
+  float: right;
+  font-family: monospace;
+}
 
-  input[type=submit]:hover {
-    text-decoration: underline;
-  }
+input[type=submit]:hover {
+  text-decoration: underline;
+}
 
-  .row {
-    display: flex;
-  }
+.row {
+  display: flex;
+}
