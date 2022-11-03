@@ -7,6 +7,7 @@ Zen Maru Gothic
 - shrink images if page gets smalled
 - add form to contact page
 - move footer outside of main
+- add title and fav icon to each page
 
 
 img src:
