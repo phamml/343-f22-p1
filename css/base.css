@@ -44,6 +44,12 @@
     display: flex;
   }
 
+  @media screen and (max-width: 800px) {
+    .row {
+      display: inline;
+    }
+  }
+
   .footer {
     margin-top: 50px;
     font-family: Catamaran;

@@ -73,14 +73,28 @@
     width: 100%;
   }
 
-  .row {
-    display: flex;
-  }
-
   img {
     width: 35%;
     margin-right: 100px;
     margin-left: 100px;
+  }
+
+  .div-goals {
+    margin-top: 100px;   
+  }
+
+  .div-goals p, h3 {
+    text-align: center;
+  }
+
+  .div-border {
+    border-right: #93A375 3px solid; 
+  }
+
+  @media screen and (max-width: 800px) {
+    .div-border {
+      border: none;
+    }
   }
 
   .footer {

@@ -24,11 +24,7 @@
     width: 100%;
     text-align: center;
   }
-
-  .row {
-    display: flex;
-  }
-  
+ 
   /* Create three equal columns that sits next to each other */
   .column {
     flex: 33.33%;
@@ -92,7 +88,8 @@
 
   .name {
     font-family: Dawning of a New Day;
-    font-size: 4rem;margin: 0px;
+    font-size: 4rem;
+    margin: 0px;
     color: #3F3629;
   }
 
