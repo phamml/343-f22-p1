@@ -55,6 +55,22 @@
     color: white;
   }
 
+  @media screen and (max-width: 1000px) {
+    .div-blog {
+      width:75%;
+    }
+
+    .natalie-img {
+      width: 55%;
+    }
+
+    .div-home {
+      width: 55%;
+      margin: auto;
+    }
+
+  }
+
   .div-blog h3 {
     font-family: "Catamaran"; 
     font-size: 1.5rem;

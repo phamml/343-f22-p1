@@ -7,10 +7,6 @@
     font-family: "Cutive Mono";
   }
 
-  .row {
-    display: flex;
-  }
-
   .text {
     width: 60%;
     margin-right: 40px;

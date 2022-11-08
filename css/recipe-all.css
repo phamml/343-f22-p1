@@ -29,20 +29,29 @@
     background-color: #829462;
   }
 
-  div {
-    width: 100%;
-  }
-
-  .row {
-    display: flex;
-  }
-  
   /* Create three equal columns that sits next to each other */
   .column {
     flex: 33.33%;
     padding: 20px;
+    justify-content: center;
   }
 
   img {
     width: 100%;
+  }
+
+  
+  @media screen and (max-width: 1000px) {
+    .column {
+      flex: 33.33%;
+      padding: 20px;
+      justify-content: center;
+
+    }
+
+    img {
+      width: 50%;
+      margin-left: 25%;
+
+    }
   }

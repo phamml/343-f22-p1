@@ -12,14 +12,26 @@
   <link rel="icon" type="image/x-icon" href="../images/favicon.ico.png">
 </head>
 <body>
-  <div class="navbar">
-    <a href="contact.html">CONTACT</a>
-    <a href="about.html">ABOUT</a>
-    <a href="blog.html">BLOG</a>
-    <a href="recipes.html"><u>RECIPES</u></a>
-    <a href="../index.html">HOME</a>
+  <div class="navbar" id="nav">
     <a class="active" href="#about">COOK WITH NATALIE</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    <a href="../html-pages/contact.html">CONTACT</a>
+    <a href="../html-pages/about.html">ABOUT</a>
+    <a href="../html-pages/blog.html">BLOG</a>
+    <a href="../html-pages/recipes.html"><u>RECIPES</u></a>
+    <a href="../index.html">HOME</a>
   </div>
+  
+  <script>
+    function myFunction() {
+      var x = document.getElementById("nav");
+      if (x.className === "navbar") {
+        x.className += " responsive";
+      } else {
+        x.className = "navbar";
+      }
+    }
+  </script>
   <main>
     <h1>SMOOTHIE BOWL</h1>
     <h3>
@@ -69,7 +81,7 @@
       <img src="../images/smoothie-bowl.jpg" alt="Smoothie Bowl">
     </div>
 
-    <div class="row footer">
+    <div class="footer">
       <p style="color: #93A375"><strong>FOLLOW ME</strong> &emsp;</p>
       <a href="https://www.facebook.com/natalie.nettemeyer" class="fa fa-facebook"></a>
       <a href="https://twitter.com/nat_netty7?s=11&t=3BjQKwWy3Rj3o-EE32e5yw" class="fa fa-twitter"></a>
