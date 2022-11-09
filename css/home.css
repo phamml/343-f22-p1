@@ -40,27 +40,31 @@ h2 {
   width: 35%;
   height: 50%;
   text-align: center;
-  padding-left: 5%;
-  padding-right: 5%;
-  margin: 5%;
-  margin-top: 10%;
+  padding: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 30px;
+  margin-top: 40px;
   color: white;
 }
 
-/* Media query for divs on the home page -- if screen is less than 1000px 
-  the div-blog expands bigger and div-recipes gets smaller */
-@media screen and (max-width: 1000px) {
+/* Media query for divs on the home page -- if screen is less than 800px 
+  the div-blog removes background color and changes to left alignment and natalie img gets bigger*/
+@media screen and (max-width: 800px) {
   .div-blog {
+    background-color: #F3F1ED;
     width:75%;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 40px;
+    color: #3F3629;
+    text-align: left;
   }
 
   .natalie-img {
     width: 55%;
-  }
-
-  .div-recipes {
-    width: 55%;
     margin: auto;
+    margin-top: 40px;
   }
 }
 

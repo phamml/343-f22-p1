@@ -33,7 +33,7 @@ img {
 /* Media query for divs and imgs on about page -- if screen is less than 1000px 
    the div-goals changes text to left alignment and removes the border between the goal sections. 
    Also fixes margins for img to left alignment. */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
   .div-goals p, h3 {
     text-align: left;
   }
@@ -43,6 +43,7 @@ img {
   }
 
   img {
+    width: 40%;
     margin: auto;
   }
 }

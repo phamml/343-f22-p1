@@ -44,9 +44,9 @@ img {
 
 /* Media query for imgs-- if screen is less than 1000px the imgs get slightly smaller and
    margin is added on the left to center the imgs horizontally in the column div */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
   img {
-    width: 50%;
-    margin-left: 25%;
+    width: 65%;
+    margin-left: 17.5%;
   }
 }
