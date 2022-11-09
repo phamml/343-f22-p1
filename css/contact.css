@@ -28,7 +28,7 @@ input[type=text], textarea {
   background-color: #F3F1ED;
 }
 
-::placeholder {
+label {
   color: #3F3629;
   font-family: monospace;
 }

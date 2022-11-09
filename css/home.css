@@ -9,11 +9,11 @@ h1 {
 h2 {
   font-family: "Catamaran";
   text-align: center;
-  color: #93A375;
+  color:#5B6852;
 }
 
 .div-recipes {
-  background-color: #93A375;
+  background-color:#5B6852;
   width: 100%;
   text-align: center;
 }
@@ -36,7 +36,7 @@ h2 {
 }
 
 .div-blog {
-  background-color: #B8A08E;
+  background-color:#473830;
   width: 35%;
   height: 50%;
   text-align: center;
@@ -44,7 +44,7 @@ h2 {
   padding-left: 40px;
   padding-right: 40px;
   margin: 30px;
-  margin-top: 40px;
+  margin-top: 10%;
   color: white;
 }
 
@@ -73,23 +73,8 @@ h2 {
   font-size: 1.5rem;
 }
 
-/* Styles the links as buttons */
-.button-link {
-  background-color: #93A375;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-family: "Catamaran";
-}
-
-.button-link:hover, a:active {
-  background-color: #829462;
-}
-
 .bio {
-  margin-top: 5%; 
+  margin-top: 10%; 
   margin-bottom: 0px;
   width: 40%;
 }
@@ -101,7 +86,6 @@ h2 {
 }
 
 .name {
-  font-family: Dawning of a New Day;
   font-size: 4rem;
   margin: 0px;
   color: #3F3629;

@@ -16,21 +16,6 @@ p {
   text-align: center;
 }
 
-/* Styles the links as buttons */
-.a-food:link, .a-food:visited {
-  background-color: #93A375;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-family: "Catamaran";
-}
-
-.a-food:hover, a:active {
-  background-color: #829462;
-}
-
 /* Creates three equal columns that sit in a row next to each other */
 .column {
   flex: 33.33%;

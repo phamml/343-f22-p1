@@ -2,6 +2,7 @@ cutive mono
 Zen Maru Gothic
 
 - resize about div for about page
+- check blog.html again
 
 
 img src:

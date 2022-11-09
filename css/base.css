@@ -19,7 +19,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  color: #93A375;
+  color: #3F3629;
 }
 
 .navbar a:hover:not(.active) {
@@ -27,7 +27,7 @@
 }
 
 .navbar a.active {
-  background-color: #93A375;
+  background-color: #5B6852;
   color: white;
   float: left;
 }
@@ -92,16 +92,27 @@ main {
   }
 }
 
+/* Styles the links as buttons */
+.button-link {
+  background-color:#5B6852;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Catamaran";
+}
+
+.button-link:hover, a:active {
+  background-color: #67775b;
+}
+
 /* Styling for footer located at bottom of each page -- contains circular social media icons */
 .footer {
   margin-top: 50px;
   font-family: Catamaran;
-  color: #93A375;
+  color:#5B6852;
   display: flex;
-}
-
-.footer p {
-  color: #93A375;
 }
 
 .fa:hover {
@@ -120,21 +131,21 @@ main {
 }
 
 .fa-facebook {
-  background: #93A375;
+  background: #5B6852;
   color: #F3F1ED;
 }
 
 .fa-twitter {
-  background: #93A375;
+  background: #5B6852;
   color: #F3F1ED;
 }
 
 .fa-instagram {
-  background: #93A375;
+  background: #5B6852;
   color: #F3F1ED;
 }
 
 .fa-pinterest {
-  background: #93A375;
+  background: #5B6852;
   color: #F3F1ED;
 }

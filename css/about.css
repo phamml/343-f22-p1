@@ -27,7 +27,7 @@ img {
 
 /* Adds vertical borders between each goal section */
 .div-border {
-  border-right: #93A375 3px solid; 
+  border-right: #5B6852 3px solid; 
 }
 
 /* Media query for divs and imgs on about page -- if screen is less than 1000px 
