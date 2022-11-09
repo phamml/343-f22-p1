@@ -1,46 +1,48 @@
-  h1 {
-    font-family: "Oswald";
-    font-size: 4rem;
-    margin-bottom: 0px;
-  }
+/* CSS style page for the about page */
+h1 {
+  font-family: "Oswald";
+  font-size: 4rem;
+  margin-bottom: 0px;
+}
 
-  h2, h3 {
-    font-family: "Catamaran";
-    margin: 0px;
-  }
+h2, h3 {
+  font-family: "Catamaran";
+  margin: 0px;
+}
 
-  p {
+img {
+  width: 35%;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.div-goals {
+  margin-top: 100px; 
+}
+
+/* Centers all the text in the div-goals */
+.div-goals p, h3 {
+  text-align: center;
+}
+
+/* Adds vertical borders between each goal section */
+.div-border {
+  border-right: #93A375 3px solid; 
+}
+
+/* Media query for divs and imgs on about page -- if screen is less than 1000px 
+   the div-goals changes text to left alignment and removes the border between the goal sections. 
+   Also fixes margins for img to left alignment. */
+@media screen and (max-width: 1000px) {
+  .div-goals p, h3 {
     text-align: left;
   }
 
-  img {
-    width: 35%;
-    margin-right: 100px;
-    margin-left: 100px;
-  }
-
-  .div-goals {
-    margin-top: 100px;   
-  }
-
-  .div-goals p, h3 {
-    text-align: center;
-  }
-
   .div-border {
-    border-right: #93A375 3px solid; 
+    border: none;
   }
 
-  @media screen and (max-width: 1000px) {
-    .div-goals p, h3 {
-      text-align: left;
-    }
-
-    .div-border {
-      border: none;
-    }
-
-    img {
-      margin: auto;
-    }
+  img {
+    margin: auto;
   }
+}

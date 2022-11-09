@@ -6,12 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/home.css" rel="stylesheet"/>
   <link href="css/base.css" rel="stylesheet"/>
+  <!-- Sources for google fonts and social media icon -->
   <link href="https://fonts.googleapis.com/css?family=Ovo|Catamaran|Dawning of a New Day" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <title>Naturally Natalie Nettemeyer</title>
+  <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="images/favicon.ico.png">
 </head>
 <body>
+  <!-- Fixed navagation bar -->
   <div class="navbar" id="nav">
     <a class="active" href="#about">COOK WITH NATALIE</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
@@ -22,6 +25,7 @@
     <a href="index.html"><u>HOME</u></a>
   </div>
   
+  <!-- Javascript for responsive navbar for media query -->
   <script>
     function myFunction() {
       var x = document.getElementById("nav");
@@ -37,9 +41,9 @@
     <h1>Naturally NattyNet</h1>
     <h2>DELICIOUS RECIPIES FOR THOSE HEALTHNUTS LOOKING TO EAT WITH NATURAL INGREDIENTS</h2>
 
-    <div class="div-home">
+    <!-- Displays recipes in a row -- each recipe img in own column -->
+    <div class="div-recipes">
       <div class="row">
-        <!-- Images go here -->
         <div class="column">
           <img class="food-img"src="images/paella.jpg" alt="Seafood Paella">
         </div>
@@ -53,6 +57,7 @@
       <a class="button-link" style="font-size: 1.5rem;" href="html-pages/recipes.html">ALL RECIPES &rarr;</a></li>
     </div>
 
+    <!-- Displays blog/about page previews in a row -->
     <div style class="row">
       <div class="div-blog">
         <h3>EATING GOOD, FEELING GOOD</h3>
@@ -75,16 +80,16 @@
         <p><a class="button-link" href="html-pages/about.html">LEARN MORE</a></p>
       </span>
     </div>
-
-    <div class="footer">
-      <p><strong>FOLLOW ME</strong> &emsp;</p>
-      <a href="https://www.facebook.com/natalie.nettemeyer" class="fa fa-facebook"></a>
-      <a href="https://twitter.com/nat_netty7?s=11&t=3BjQKwWy3Rj3o-EE32e5yw" class="fa fa-twitter"></a>
-      <a href="https://www.instagram.com/natty.netty7/" class="fa fa-instagram"></a>
-      <a href="https://www.pinterest.com/nnaattalieee/" class="fa fa-pinterest"></a>
-    </div>
-
   </main>
+
+  <!-- Footer containing social media links with circular social media icons -->
+  <div class="footer">
+    <p><strong>FOLLOW ME</strong> &emsp;</p>
+    <a href="https://www.facebook.com/natalie.nettemeyer" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/nat_netty7?s=11&t=3BjQKwWy3Rj3o-EE32e5yw" class="fa fa-twitter"></a>
+    <a href="https://www.instagram.com/natty.netty7/" class="fa fa-instagram"></a>
+    <a href="https://www.pinterest.com/nnaattalieee/" class="fa fa-pinterest"></a>
+  </div>
   
 </body>
 </html>

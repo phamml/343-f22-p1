@@ -1,114 +1,104 @@
-  h1 {
-    font-family: Ovo;
-    text-align: center;
-    font-size: 4rem;
-    color: #3F3629;
-  }
+/* CSS style sheet for the home page (index.html) */
+h1 {
+  font-family: Ovo;
+  text-align: center;
+  font-size: 4rem;
+  color: #3F3629;
+}
 
-  h2 {
-    font-family: "Catamaran";
-    text-align: center;
-    color: #93A375;
-  }
+h2 {
+  font-family: "Catamaran";
+  text-align: center;
+  color: #93A375;
+}
 
-  p {
-    color: white;
-  }
-
-  a {
-    color: #3F3629
-  }
-
-  .div-home {
-    background-color: #93A375;
-    width: 100%;
-    text-align: center;
-  }
+.div-recipes {
+  background-color: #93A375;
+  width: 100%;
+  text-align: center;
+}
  
-  /* Create three equal columns that sits next to each other */
-  .column {
-    flex: 33.33%;
-    padding: 20px;
-    margin-top: 18px;
-  }
+/* Creates three equal columns that sit in a row next to each other */
+.column {
+  flex: 33.33%;
+  padding: 20px;
+  margin-top: 18px;
+}
 
-  .food-img {
-    width: 100%;
+.food-img {
+  width: 100%;
+}
+
+.natalie-img {
+  margin: 3%;
+  width: 27%;
+  height: 100%;
+}
+
+.div-blog {
+  background-color: #B8A08E;
+  width: 35%;
+  height: 50%;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 5%;
+  margin-top: 10%;
+  color: white;
+}
+
+/* Media query for divs on the home page -- if screen is less than 1000px 
+  the div-blog expands bigger and div-recipes gets smaller */
+@media screen and (max-width: 1000px) {
+  .div-blog {
+    width:75%;
   }
 
   .natalie-img {
-    margin: 30px;
-    width: 27%;
-    height: 100%;
+    width: 55%;
   }
 
-  .div-blog {
-    background-color: #B8A08E;
-    width: 35%;
-    height: 50%;
-    text-align: center;
-    padding: 5px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin: 30px;
-    margin-top: 150px;
-    color: white;
+  .div-recipes {
+    width: 55%;
+    margin: auto;
   }
+}
 
-  @media screen and (max-width: 1000px) {
-    .div-blog {
-      width:75%;
-    }
+.div-blog h3 {
+  font-family: "Catamaran"; 
+  font-size: 1.5rem;
+}
 
-    .natalie-img {
-      width: 55%;
-    }
+/* Styles the links as buttons */
+.button-link {
+  background-color: #93A375;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Catamaran";
+}
 
-    .div-home {
-      width: 55%;
-      margin: auto;
-    }
+.button-link:hover, a:active {
+  background-color: #829462;
+}
 
-  }
+.bio {
+  margin-top: 5%; 
+  margin-bottom: 0px;
+  width: 40%;
+}
 
-  .div-blog h3 {
-    font-family: "Catamaran"; 
-    font-size: 1.5rem;
-  }
+.bio h3 {
+  margin: 0px;
+  color: #3F3629;
+  font-family: Catamaran;
+}
 
-  .button-link {
-    background-color: #93A375;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-family: "Catamaran";
-  }
-
-  .button-link:hover, a:active {
-    background-color: #829462;
-  }
-
-  .bio {
-    margin-top: 50px; 
-    margin-bottom: 0px;
-    width: 40%;
-  }
-
-  .bio h3 {
-    margin: 0px;
-    color: #3F3629;
-    font-family: Catamaran;
-  }
-
-  .name {
-    font-family: Dawning of a New Day;
-    font-size: 4rem;
-    margin: 0px;
-    color: #3F3629;
-  }
-
-  .bio p {
-    color: #3F3629;
-  }
+.name {
+  font-family: Dawning of a New Day;
+  font-size: 4rem;
+  margin: 0px;
+  color: #3F3629;
+}

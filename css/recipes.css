@@ -1,36 +1,41 @@
-  h1 {
-    font-family: "Cutive Mono";
-    font-size: 4rem;
-  }
+/* CSS style sheet for the 3 individual recipe pages */
+h1 {
+  font-family: "Cutive Mono";
+  font-size: 4rem;
+}
 
-  h3 {
-    font-family: "Cutive Mono";
-  }
+h3 {
+  font-family: "Cutive Mono";
+}
 
-  .text {
-    width: 60%;
-    margin-right: 40px;
-  }
+/* Div for the recipe details */
+.text {
+  width: 60%;
+  margin-right: 40px;
+}
 
-  .col-left {
-    flex: 20%;
-    padding: 10px;
-    margin-top: 18px;
-    text-align: left;
-  }
+/* Puts the recipe ingredients in a div column to the left */
+.col-left {
+  flex: 20%;
+  padding: 10px;
+  margin-top: 18px;
+  text-align: left;
+}
 
-  .col-right {
-    flex: 40%;
-    padding: 10px;
-    margin-top: 18px;
-    text-align: left;
-  }
+/* Puts the recipe instructions in a div column to the right that is 
+   slightly wider than the div column of ingredients */
+.col-right {
+  flex: 40%;
+  padding: 10px;
+  margin-top: 18px;
+  text-align: left;
+}
 
-  ul {
-    list-style-type:none;
-    padding-left: 0px;
-  }
+ul {
+  list-style-type:none;
+  padding-left: 0px;
+}
 
-  img {
-    width: 40%
-  }
+img {
+  width: 40%
+}

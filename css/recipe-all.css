@@ -1,57 +1,52 @@
-  h1 {
-    font-family: "Oswald";
-    text-align: center;
-    font-size: 4rem;
-    color: #3F3629;
-  }
+/* CSS style sheet for the recipes page that lists all the recipes to select from */
+h1 {
+  font-family: "Oswald";
+  text-align: center;
+  font-size: 4rem;
+  color: #3F3629;
+}
 
-  h2 {
-    font-family: "Catamaran";
-    text-align: center;
-    color: #93A375;
-  }
+h2 {
+  font-family: "Catamaran";
+  text-align: center;
+  color: #93A375;
+}
 
-  p {
-    text-align: center;
-  }
+p {
+  text-align: center;
+}
 
-  .a-food:link, .a-food:visited {
-    background-color: #93A375;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-family: "Catamaran";
-  }
-  
-  .a-food:hover, a:active {
-    background-color: #829462;
-  }
+/* Styles the links as buttons */
+.a-food:link, .a-food:visited {
+  background-color: #93A375;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Catamaran";
+}
 
-  /* Create three equal columns that sits next to each other */
-  .column {
-    flex: 33.33%;
-    padding: 20px;
-    justify-content: center;
-  }
+.a-food:hover, a:active {
+  background-color: #829462;
+}
 
+/* Creates three equal columns that sit in a row next to each other */
+.column {
+  flex: 33.33%;
+  padding: 20px;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+}
+
+/* Media query for imgs-- if screen is less than 1000px the imgs get slightly smaller and
+   margin is added on the left to center the imgs horizontally in the column div */
+@media screen and (max-width: 1000px) {
   img {
-    width: 100%;
+    width: 50%;
+    margin-left: 25%;
   }
-
-  
-  @media screen and (max-width: 1000px) {
-    .column {
-      flex: 33.33%;
-      padding: 20px;
-      justify-content: center;
-
-    }
-
-    img {
-      width: 50%;
-      margin-left: 25%;
-
-    }
-  }
+}

@@ -1,132 +1,140 @@
+/* CSS style sheet for the base theme of the website -- style elements that all pages contain */
+
+/* Styling for fixed navbar located at top of each page */
 .navbar {
-    top: 0;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    position: fixed;
-    background-color: #E3DED5;
-    font-family: "Catamaran";
-    width: 100%;
-  }
-  
-  .navbar a {
-    float: right;
-    color: white;
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    color: #93A375;
-  }
-  
-  .navbar a:hover:not(.active) {
-    background-color: #D7D0C3;
-  }
-  
-  .navbar a.active {
-    background-color: #93A375;
-    color: white;
-    float: left;
-  }
+  top: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  background-color: #E3DED5;
+  font-family: "Catamaran";
+  width: 100%;
+}
 
-  .navbar .icon {
+.navbar a {
+  float: right;
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #93A375;
+}
+
+.navbar a:hover:not(.active) {
+  background-color: #D7D0C3;
+}
+
+.navbar a.active {
+  background-color: #93A375;
+  color: white;
+  float: left;
+}
+
+/* Navbar icon that displays for smaller screens */
+.navbar .icon {
+  display: none;
+  padding: 0px;
+}
+
+/* Media query for navbar -- when screen is less than 800px changes horizontal
+   navbar to dropdown navbar */
+@media screen and (max-width: 800px) {
+  .navbar a:not(:first-child) {
     display: none;
-    padding: 0px;
   }
-  
-  @media screen and (max-width: 800px) {
-    .navbar a:not(:first-child) {
-      display: none;
-    }
 
-    .navbar a.icon {
-      float: right;
-      display: block;
-    }
+  .navbar a.icon {
+    float: right;
+    display: block;
   }
-  
-  @media screen and (max-width: 800px) {
-    .navbar.responsive {
-      position: relative;
-    }
-    
-    .navbar.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-      color: white;
-    }
-    .navbar.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
+}
+
+@media screen and (max-width: 800px) {
+  .navbar.responsive {
+    position: relative;
   }
+
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: white;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
  
-  body {
-    background-color: #F3F1ED;
-    font-family: Ovo;
-    color: #3F3629;
-  }
+body {
+  background-color: #F3F1ED;
+  font-family: Ovo;
+  color: #3F3629;
+}
 
-  main {
-    padding: 16px;
-    margin-top: 30px;
-  }
+main {
+  padding: 16px;
+  margin-top: 30px;
+}
 
+.row {
+  display: flex;
+}
+
+/* Media query for all div rows -- if screen is less than 1000px 
+   changes layout of div rows from flex to inline*/
+@media screen and (max-width: 1000px) {
   .row {
-    display: flex;
+    display: inline;
   }
+}
 
-  @media screen and (max-width: 1000px) {
-    .row {
-      display: inline;
-    }
-  }
+/* Styling for footer located at bottom of each page -- contains circular social media icons */
+.footer {
+  margin-top: 50px;
+  font-family: Catamaran;
+  color: #93A375;
+  display: flex;
+}
 
+.footer p {
+  color: #93A375;
+}
 
-  .footer {
-    margin-top: 50px;
-    font-family: Catamaran;
-    color: #93A375;
-    display: flex;
-  }
+.fa:hover {
+  opacity: 0.7;
+}
 
-  .footer p {
-    color: #93A375;
-  }
+.fa {
+  padding: 12px;
+  padding-top: 15px;
+  font-size: 47px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
 
-  .fa:hover {
-    opacity: 0.7;
-  }
+.fa-facebook {
+  background: #93A375;
+  color: #F3F1ED;
+}
 
-  .fa {
-    padding: 12px;
-    padding-top: 15px;
-    font-size: 47px;
-    width: 25px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-  }
+.fa-twitter {
+  background: #93A375;
+  color: #F3F1ED;
+}
 
-  .fa-facebook {
-    background: #93A375;
-    color: #F3F1ED;
-  }
+.fa-instagram {
+  background: #93A375;
+  color: #F3F1ED;
+}
 
-  .fa-twitter {
-    background: #93A375;
-    color: #F3F1ED;
-  }
-
-  .fa-instagram {
-    background: #93A375;
-    color: #F3F1ED;
-  }
-
-  .fa-pinterest {
-    background: #93A375;
-    color: #F3F1ED;
-  }
+.fa-pinterest {
+  background: #93A375;
+  color: #F3F1ED;
+}

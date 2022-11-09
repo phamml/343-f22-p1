@@ -1,9 +1,11 @@
+/* CSS style sheet for the blog page */
 h1 {
   font-family: "Oswald";
   font-size: 4rem;
   margin-bottom: 0px;
 }
 
+/* Adds side margins to the main section of the body */
 main {
   margin-left: 75px;
   margin-right: 75px;

@@ -1,3 +1,4 @@
+/* CSS style sheet for contact page */
 h1 {
   font-family: "Oswald";
   font-size: 4rem;
@@ -9,10 +10,6 @@ h3 {
   margin: 0px;
 }
 
-p {
-  text-align: left;
-}
-
 .div-form {
   width: 55%;
 }
@@ -21,6 +18,7 @@ form {
   margin-top: 25px;
 }
 
+/* Styling for the input fields and text area for message */
 input[type=text], textarea {
   width: 100%;
   padding: 12px 20px;
@@ -35,6 +33,7 @@ input[type=text], textarea {
   font-family: monospace;
 }
 
+/* Styling for the submit button */
 input[type=submit] {
   background-color: #F3F1ED;
   border: 1.5px solid #3F3629;
@@ -45,12 +44,9 @@ input[type=submit] {
   font-family: monospace;
 }
 
+/* Underlines the submit text in the submit button when mouse hovers */
 input[type=submit]:hover {
   text-decoration: underline;
-}
-
-.row {
-  display: flex;
 }
 
 img {
