@@ -27,7 +27,7 @@ img {
   width: 100%;
 }
 
-/* Media query for imgs-- if screen is less than 1000px the imgs get slightly smaller and
+/* Media query for imgs-- if screen is less than 800px the imgs get slightly smaller and
    margin is added on the left to center the imgs horizontally in the column div */
 @media screen and (max-width: 800px) {
   img {

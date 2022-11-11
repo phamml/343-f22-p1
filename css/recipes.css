@@ -39,3 +39,15 @@ ul {
 img {
   width: 40%
 }
+
+/* Media query for divs and imgs on recipes page -- if screen is less than 800px 
+   the div and img width expands. */
+   @media screen and (max-width: 800px) {
+    .text {
+      width: 100%;
+    }
+
+    img {
+      width: 55%;
+    }
+  }

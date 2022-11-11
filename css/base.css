@@ -84,7 +84,7 @@ main {
   display: flex;
 }
 
-/* Media query for all div rows -- if screen is less than 1000px 
+/* Media query for all div rows -- if screen is less than 800px 
    changes layout of div rows from flex to inline*/
 @media screen and (max-width: 800px) {
   .row {

@@ -95,11 +95,18 @@ input[type=submit]:hover {
   text-decoration: underline;
 }
 
+.bio {
+  margin-top: 10%; 
+  margin-bottom: 0px;
+  width: 30%;
+}
+
 /* Media query for divs on the home page -- if screen is less than 800px 
-  the div-blog removes background color and changes to left alignment and natalie img gets bigger*/
+  the div-blog removes background color and changes to left alignment and 
+  other div and img width expands */
 @media screen and (max-width: 800px) {
   .container {
-    width: 75%;
+    width: 100%;
   }
   .div-blog {
     background-color: #F3F1ED;
@@ -125,21 +132,13 @@ input[type=submit]:hover {
 
   .bio {
     width: 100%;
-    margin: 0px;
-    margin-right: 0px;
-  }
+  } 
 }
 
 .div-blog h3 {
   font-family: "Catamaran"; 
   font-size: 1.5rem;
   margin-top: 0px;
-}
-
-.bio {
-  margin-top: 10%; 
-  margin-bottom: 0px;
-  width: 30%;
 }
 
 .bio h3 {
@@ -153,3 +152,4 @@ input[type=submit]:hover {
   margin: 0px;
   color: #3F3629;
 }
+

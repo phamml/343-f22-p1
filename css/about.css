@@ -16,6 +16,10 @@ img {
   margin-left: 100px;
 }
 
+.div-about {
+  width: 55%;
+}
+
 .div-goals {
   margin-top: 100px; 
 }
@@ -30,10 +34,14 @@ img {
   border-right: #5B6852 3px solid; 
 }
 
-/* Media query for divs and imgs on about page -- if screen is less than 1000px 
+/* Media query for divs and imgs on about page -- if screen is less than 800px 
    the div-goals changes text to left alignment and removes the border between the goal sections. 
-   Also fixes margins for img to left alignment. */
+   Also fixes margins and expands width */
 @media screen and (max-width: 800px) {
+  .div-about {
+    width: 100%;
+  }
+
   .div-goals p, h3 {
     text-align: left;
   }
@@ -43,7 +51,7 @@ img {
   }
 
   img {
-    width: 40%;
+    width: 55%;
     margin: auto;
   }
 }
