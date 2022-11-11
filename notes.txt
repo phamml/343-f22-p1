@@ -1,9 +1,0 @@
-cutive mono
-Zen Maru Gothic
-
-- resize about div for about page
-- check blog.html again
-
-
-img src:
-https://www.eatingdisorderhope.com/wp-content/uploads/2021/08/Nourishing-Foods-2.jpg
