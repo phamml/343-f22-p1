@@ -16,20 +16,21 @@
   <link rel="icon" type="image/x-icon" href="../images/favicon.ico.png">
 </head>
 <body>
-  <!-- Fixed navagation bar -->
-  <div class="navbar" id="nav">
-    <a class="active"  href="" target="_top">COOK WITH NATALIE</a>
-    <a href="javascript:void(0);" aria-label="Javascript for responsive navbar" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-    <a href="../html-pages/contact.html">CONTACT</a>
-    <a href="../html-pages/about.html">ABOUT</a>
-    <a href="../html-pages/blog.html">BLOG</a>
-    <a href="../html-pages/recipes.html"><u>RECIPES</u></a>
-    <a href="../index.html">HOME</a>
-  </div>
+  <header>
+    <!-- Fixed navagation bar -->
+    <div class="navbar" id="nav">
+      <a class="active"  href="" target="_top">COOK WITH NATALIE</a>
+      <a href="javascript:void(0);" aria-label="Javascript for responsive navbar" class="icon" onclick="toggle()"><i class="fa fa-bars"></i></a>
+      <a href="../html-pages/contact.html">CONTACT</a>
+      <a href="../html-pages/about.html">ABOUT</a>
+      <a href="../html-pages/blog.html">BLOG</a>
+      <a href="../html-pages/recipes.html"><u>RECIPES</u></a>
+      <a href="../index.html">HOME</a>
+    </div>
+  </header>
 
-  <!-- Javascript for responsive navbar for media query --> 
   <script>
-    function myFunction() {
+    function toggle() {
       var x = document.getElementById("nav");
       if (x.className === "navbar") {
         x.className += " responsive";
