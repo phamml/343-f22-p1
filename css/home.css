@@ -36,16 +36,15 @@ h2 {
 }
 
 .container {
-  width: 40%;
+  width: 38%;
 }
 
 .div-blog {
   background-color:#473830;
-  /* height: 35%; */
   text-align: center;
-  padding: 5%;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding: 3%;
+  padding-left: 30px;
+  padding-right: 30px;
   margin: 30px;
   margin-top: 10%;
   color: white;
@@ -53,8 +52,7 @@ h2 {
 
 .div-subscribe {
   background-color: #E3DED5;
-  padding: 40px;
-  /* height: 25%; */
+  padding: 25px;
   margin: 30px;
   margin-top: 10%;
 }
@@ -98,7 +96,7 @@ input[type=submit]:hover {
 .bio {
   margin-top: 10%; 
   margin-bottom: 0px;
-  width: 30%;
+  width: 35%;
 }
 
 /* Media query for divs on the home page -- if screen is less than 800px 
@@ -137,7 +135,7 @@ input[type=submit]:hover {
 
 .div-blog h3 {
   font-family: "Catamaran"; 
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-top: 0px;
 }
 

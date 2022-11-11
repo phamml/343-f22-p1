@@ -11,9 +11,9 @@ h2, h3 {
 }
 
 img {
-  width: 35%;
-  margin-right: 100px;
-  margin-left: 100px;
+  width: 40%;
+  margin-right: 70px;
+  margin-left: 70px;
 }
 
 .div-about {
@@ -22,6 +22,7 @@ img {
 
 .div-goals {
   margin-top: 100px; 
+  width: 100%;
 }
 
 /* Centers all the text in the div-goals */
