@@ -31,16 +31,19 @@ h2 {
 
 .natalie-img {
   margin: 3%;
-  width: 27%;
+  width: 30%;
   height: 100%;
+}
+
+.container {
+  width: 40%;
 }
 
 .div-blog {
   background-color:#473830;
-  width: 35%;
-  height: 50%;
+  /* height: 35%; */
   text-align: center;
-  padding: 15px;
+  padding: 5%;
   padding-left: 40px;
   padding-right: 40px;
   margin: 30px;
@@ -48,12 +51,58 @@ h2 {
   color: white;
 }
 
+.div-subscribe {
+  background-color: #E3DED5;
+  padding: 40px;
+  /* height: 25%; */
+  margin: 30px;
+  margin-top: 10%;
+}
+
+.div-subscribe h4 {
+  margin: 0px;
+
+}
+/* Styling for the input fields and text area for message */
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-top: 30px;
+  box-sizing: border-box;
+  border: 1.5px solid #3F3629;
+  background-color: #E3DED5;
+}
+
+label {
+  color: #3F3629;
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+/* Styling for the submit button */
+input[type=submit] {
+  background-color: #E3DED5;
+  border: 1.5px solid #3F3629;
+  color: #3F3629;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-family: monospace;
+}
+
+/* Underlines the submit text in the submit button when mouse hovers */
+input[type=submit]:hover {
+  text-decoration: underline;
+}
+
 /* Media query for divs on the home page -- if screen is less than 800px 
   the div-blog removes background color and changes to left alignment and natalie img gets bigger*/
 @media screen and (max-width: 800px) {
+  .container {
+    width: 75%;
+  }
   .div-blog {
     background-color: #F3F1ED;
-    width:75%;
     margin: 0px;
     padding: 0px;
     margin-top: 40px;
@@ -61,22 +110,36 @@ h2 {
     text-align: left;
   }
 
+  .div-subscribe {
+    background-color: #E3DED5;
+    margin: 0px;
+    margin-top: 40px;
+    color: #3F3629;
+  }
+
   .natalie-img {
     width: 55%;
     margin: auto;
     margin-top: 40px;
+  }
+
+  .bio {
+    width: 100%;
+    margin: 0px;
+    margin-right: 0px;
   }
 }
 
 .div-blog h3 {
   font-family: "Catamaran"; 
   font-size: 1.5rem;
+  margin-top: 0px;
 }
 
 .bio {
   margin-top: 10%; 
   margin-bottom: 0px;
-  width: 40%;
+  width: 30%;
 }
 
 .bio h3 {
