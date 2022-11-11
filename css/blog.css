@@ -7,8 +7,8 @@ h1 {
 
 /* Adds side margins to the main section of the body */
 main {
-  margin-left: 75px;
-  margin-right: 75px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .blog-title {
