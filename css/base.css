@@ -9,13 +9,12 @@
   position: fixed;
   background-color: #E3DED5;
   font-family: "Catamaran";
+  display: block;
   width: 100%;
 }
 
 .navbar a {
   float: right;
-  color: white;
-  display: block;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -41,9 +40,13 @@
 /* Media query for navbar -- when screen is less than 800px changes horizontal
    navbar to dropdown navbar */
 @media screen and (max-width: 800px) {
-  .navbar a:not(:first-child) {
+  /* .navbar a:not(:first-child) {
     display: none;
-  }
+  } */
+
+  /* .navbar {
+    display: block;
+  } */
 
   .navbar a.icon {
     float: right;
